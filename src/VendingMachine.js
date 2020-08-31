@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Soda from './Soda';
 import Chips from './Chips';
 import Sardines from './Sardines';
@@ -12,17 +12,7 @@ function VendingMachine() {
   return (
     <>
       <Route exact path="/">
-        <div>
-          <div>
-            <Link to="/soda">Soda</Link>
-          </div>
-          <div>
-            <Link to="/chips">Chips</Link>
-          </div>
-          <div>
-            <Link to="/sardines">Sardines</Link>
-          </div>
-        </div>
+        <h1>Welcome!</h1>
       </Route>
       <Route exact path="/soda">
         <Soda />

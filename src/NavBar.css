@@ -1,0 +1,12 @@
+
+.NavBar a{
+  margin:10px;
+  color:blue
+}
+.NavBar a:visited{
+  color:blue
+}
+.NavBar a.active{
+    color:black
+}
+
